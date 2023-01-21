@@ -1,0 +1,95 @@
+/**
+Palette: https://scrimba.com/links/hometown-palette
+RED: #E63946
+LIGHT: #F1FAEE
+AQUA: #A8DADC
+LIGHT BLUE: #457B9D
+DARK BLUE: #1D3557
+
+*/
+
+body {
+    margin: 0;
+    text-align: center;
+    font-size: 16px;
+    font-family: 'Sofia Sans', sans-serif;
+}
+
+h1, h2, h3, h4 {
+    margin: 0;
+}
+
+#hero-sec {
+    color: white;
+    background-image: url("images/casco-antiguo.jpg");
+    background-size: cover;
+    background-position: center;
+    padding: 100px 0;
+}
+
+#hero-title {
+    margin: 0 auto;
+    width: 350px;
+    background: #457B9D;
+    padding: 8px 0;
+    border-radius: 10px;
+}
+
+#hero-desc {
+    margin: 20px auto 0;
+    padding: 8px 16px;
+    width: 500px;
+    background: #1D3557;
+    border-radius: 10px;
+}
+
+#act-sec {
+    background: #F1FAEE;
+    padding: 20px 0;
+    color: #264653;
+}
+
+#act-title {
+    margin-bottom: 30px;
+    font-size: 25px;
+}
+
+#act-container {
+    width: 800px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+.act-items {
+    width: 200px;
+}
+
+.act-img {
+    width: 100px;
+    border-radius: 100%;
+}
+
+#guide-sec {
+    color: white;
+    margin: 50px auto;
+    padding: 20px;
+    width: 350px;
+    background: #457B9D;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-bottom: 5px solid #1D3557;
+    border-radius: 10px;
+}
+
+#guide-info {
+    width: 100px;
+    margin-left: 20px;
+}
+
+#guide-img {
+    width: 200px;
+    border-radius: 10px;
+}
+
